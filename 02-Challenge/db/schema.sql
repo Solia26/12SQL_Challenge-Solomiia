@@ -1,8 +1,3 @@
-drop database if exists employee_db;
-create database employee_db;
-
-\c employee_db;
-
 create table department(
 
   id SERIAL PRIMARY KEY,

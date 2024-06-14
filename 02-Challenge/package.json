@@ -4,12 +4,14 @@
   "description": "## Your Task",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^8.2.4",
+    "dotenv": "^16.4.5",
+    "inquirer": "^8.2.6",
     "pg": "^8.11.5"
   }
 }
